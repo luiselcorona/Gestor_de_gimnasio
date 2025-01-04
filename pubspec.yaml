@@ -1,0 +1,31 @@
+name: gymy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path: any
+  get: ^4.6.5
+  shared_preferences: ^2.0.13
+  intl: ^0.19.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  flutter_staggered_grid_view: ^0.4.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/cbum.jpg
+  uses-material-design: true
