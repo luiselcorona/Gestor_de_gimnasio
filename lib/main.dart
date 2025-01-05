@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:gymy/presentation/login/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: [
+    //La app solo se puede usar con la pantalla vertical
+    SystemUiOverlay.bottom,
+    SystemUiOverlay.top
+  ]);
   runApp(MyApp());
 }
 

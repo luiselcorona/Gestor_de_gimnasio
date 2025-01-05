@@ -1,6 +1,6 @@
 name: gymy
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -16,9 +16,8 @@ dependencies:
   intl: ^0.19.0
   flutter_localizations:
     sdk: flutter
-  flutter_svg: ^0.22.0
-  flutter_staggered_grid_view: ^0.4.0
-  
+  # flutter_svg: ^0.22.0
+  # flutter_staggered_grid_view: ^0.4.0
 
 dev_dependencies:
   flutter_test:
